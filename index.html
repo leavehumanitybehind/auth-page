@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image-wrapper"></div>
+      <div class="content">
+        <div class="content-wrapper">
+          <p>Welcome back</p>
+          <h1>Login to your account</h1>
+          <form class="form">
+            <div class="form-field">
+              <label for="email"> Email</label>
+              <input
+                type="text"
+                placeholder="Your email"
+                id="email"
+                name="email"
+              />
+            </div>
+            <div class="form-field">
+              <label for="password"> Password</label>
+              <input
+                type="password"
+                placeholder="Your password"
+                id="password"
+                name="password"
+              />
+            </div>
+            <p class="login-error"></p>
+            <div class="checkbox-field">
+              <div class="checkbox-wrapper">
+                <input class="checkbox-input" type="checkbox" name="checkbox" id="checkbox" />
+              <label for="checkbox"> Remember me</label>
+              </div>
+              
+                
+               
+
+              <a href="#">Forgot password? </a>
+            </div>
+            <div class="form-field">
+              <button class="btn login-btn">Login now</button>
+              <button class="btn google-btn">Or sign-in with google</button>
+            </div>
+          </form>
+
+          <p class="join-text">
+            Don`t have account? <a href="/signup.html"> Join free today</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-auth.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
