@@ -60,6 +60,7 @@ h1 {
 .form-field input:hover,
 .form-field input:focus, .checkbox-input:hover,  .checkbox-input:focus {
   border: 1px solid #a09f9f;
+  outline:none;
 }
 .checkbox-wrapper {
   display: flex;
